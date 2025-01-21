@@ -11,9 +11,9 @@ quickstart: ac.AppConfiguration {
             quickstart: c.Container {
                 image: "kusionstack/kusion-quickstart:latest"
                 env: {
-                    "DB_HOST": "$(KUSION_DB_HOST_QUICKSTART_DEFAULT_QUICKSTART_MYSQL)"
-                    "DB_USERNAME": "$(KUSION_DB_USERNAME_QUICKSTART_DEFAULT_QUICKSTART_MYSQL)"
-                    "DB_PASSWORD": "$(KUSION_DB_PASSWORD_QUICKSTART_DEFAULT_QUICKSTART_MYSQL)"
+                    "DB_HOST": "$(KUSION_DB_HOST_QUICKSTARTWITHDBDEFAULTWITHDBQU)"
+                    "DB_USERNAME": "$(KUSION_DB_USERNAME_QUICKSTARTWITHDBDEFAULTWITHDBQU)"
+                    "DB_PASSWORD": "$(KUSION_DB_PASSWORD_QUICKSTARTWITHDBDEFAULTWITHDBQU)"
                 }
             }
         }
